@@ -151,8 +151,8 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-			<div class="inner">
-				<h2>Countdown to StCatsHacks 2022 Event!<!--Time left:--></h2></div>
+			<!--<div class="inner">
+				<h2>Countdown to StCatsHacks 2022 Event!<!--Time left:--></h2></div>-->
 
 			
 				<!-- Script for countdown -->
@@ -178,13 +178,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  //document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    //document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
